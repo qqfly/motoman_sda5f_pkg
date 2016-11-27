@@ -23,12 +23,12 @@ An automatically generated package with all the configuration and launch files f
 # Usage
 
 ## In Simulation
-1. Display SDA5 in Rviz: <br>
+1.Display SDA5 in Rviz: <br>
 ```
 roslaunch motoman_sda5f_support test_sda5f.launch
 ```
 
-2. Use MoveIt with simulated robot:<br>
+2.Use MoveIt with simulated robot:<br>
 ```
 roslaunch motoman_sda5f_moveit_config demo_fake.launch
 or
@@ -39,21 +39,21 @@ roslaunch motoman_sda5f_moveit_config demo_sim.launch
 </div>
 
 ## Real Robot
-1. Download motoman_driver for dual-arm FS100 contrller.
+1.Download motoman_driver for dual-arm FS100 contrller.
 ```
 git clone git@github.com:qqfly/motoman.git -b dual_arm_fs100_indigo
 ```
-2. Follow the instructions from [ROS](http://wiki.ros.org/motoman_driver/Tutorials/indigo/InstallServer)<br>
-3. Set IP for your computer
+2.Follow the instructions from [ROS](http://wiki.ros.org/motoman_driver/Tutorials/indigo/InstallServer)<br>
+3.Set IP for your computer
 <div  align="center">
     <img src="/motoman_sda5f_support/pic/IP_for_SDA.png" width = "300" height = "300" alt="sim_SDA5F" />
 </div>
-4. Connect robot with an Ethernet cable.
-5. Launch motoman_driver
+4.Connect robot with an Ethernet cable.
+5.Launch motoman_driver
 ```
 roslaunch motoman_sda5f_support robot_interface_streaming_sda5f.launch
 ```
-6. Launch MoveIt
+6.Launch MoveIt
 ```
 roslaunch motoman_sda5f_moveit_config demo.launch
 ```
