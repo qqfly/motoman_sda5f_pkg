@@ -1,0 +1,7 @@
+<launch>
+  <group>
+    <include file="$(find motoman_sda5f_support)/launch/test_sda5f.launch">
+	<remap from="/joint_states" to="/qq/joint_states"/>
+    </include>
+  </group>
+</launch>
