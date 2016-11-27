@@ -48,7 +48,7 @@ git clone git@github.com:qqfly/motoman.git -b dual_arm_fs100_indigo
 <div  align="center">
     <img src="/motoman_sda5f_support/pic/IP_for_SDA.png" width = "300" height = "300" alt="sim_SDA5F" />
 </div>
-4.Connect robot with an Ethernet cable.
+4.Connect robot with an Ethernet cable. <br>
 5.Launch motoman_driver
 ```
 roslaunch motoman_sda5f_support robot_interface_streaming_sda5f.launch
